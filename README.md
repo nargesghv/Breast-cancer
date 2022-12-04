@@ -6,7 +6,7 @@ modeling data with random forest make confiousion matrix as below
 
 the confusion matrix for random forrest
 
-![Confusion matrix](/random.png?raw=true "descision tree")
+![Confusion matrix](/random.png?raw=true "random forest")
 
 compare two matrix and comming up with random forrest better result
 # Define the grid for the number of trees on random forrest
@@ -14,4 +14,9 @@ comming up with {n_estimator's=200}
 # retrieve the relative importance of each variable and visualize the importance plot
 Feature importances using permutation on full model for decreasing of mean accuracy
 # get the feature importances from the fitted model using MDI
-for decreasing on impurity
+finding important feature who have a role to decreasing impurity
+
+![Confusion matrix](/download2.png?raw=true "features")
+
+
+
